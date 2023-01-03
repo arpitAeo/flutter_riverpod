@@ -63,7 +63,7 @@ import 'package:riverpod_app/logic/provider/stream_provider.dart';
                 SizedBox(height: 5,),
                 InkWell(
                   onTap: (() => Navigator.push(context, MaterialPageRoute(builder: ((context) {
-                    return StreamProvider();
+                    return StreamProviderPage();
                   })))),
                   child: Container(
                     color: Colors.amber,
@@ -77,7 +77,7 @@ import 'package:riverpod_app/logic/provider/stream_provider.dart';
                 SizedBox(height: 5,),
                 InkWell(
                   onTap: (() => Navigator.push(context, MaterialPageRoute(builder: ((context) {
-                    return ChangeNotifierProvider();
+                    return ChangeNotifierProviderPage();
                   })))),
                   child: Container(
                     color: Colors.orange,

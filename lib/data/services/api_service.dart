@@ -6,6 +6,8 @@ import 'package:riverpod_app/data/models/suggestion.dart';
 
 final apiServiceProvider = Provider<APIService>(((ref) => APIService()));
 
+final apiServiceProviderFromSuggestion = Provider<APIService>(((ref) => APIService()));
+
 class APIService{
   Future<Suggestion> getSuggestion() async{
     try {
